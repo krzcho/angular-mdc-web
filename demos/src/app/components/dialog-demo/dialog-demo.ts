@@ -455,7 +455,7 @@ export class DialogConfirmation {
   templateUrl: './dialog-form-demo.html'
 })
 export class DialogForm {
-  constructor(public dialogRef: MdcDialogRef<DialogConfirmation>,
+  constructor(public dialogRef: MdcDialogRef<DialogForm>,
     @Inject(MDC_DIALOG_DATA) public data: DialogData) { }
 
   profileForm = new FormGroup({
